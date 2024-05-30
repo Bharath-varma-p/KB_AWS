@@ -14,6 +14,7 @@
 ### 3. **Roles**
     - A set of permissions defining what actions are allowed and denied by an entity in AWS.
     - Roles can be assumed by users, applications, or services.
+    - [Deep Dive on IAM Roles](AWS/IAM/IAM_ROLES_README.md)
 
 ### 4. **Policies**
     - Documents defining permissions and are associated with users, groups, or roles.
