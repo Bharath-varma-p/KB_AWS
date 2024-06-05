@@ -1,5 +1,15 @@
+# IAM (Identity and Access Management)
+
+Amazon Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources.
+
+##
+> 🛑 **CAUTION:** Be careful when granting permissions. Overly permissive policies can pose a security risk. Always follow the principle of least privilege.
+
+
 
 ## Key Concepts
+
+
 
 ### 1. **Users**
     - Represents a person or a Service that Interact with AWS

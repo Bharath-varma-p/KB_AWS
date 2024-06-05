@@ -6,6 +6,8 @@ An IAM Role in AWS is a set of permissions that define what actions are allowed 
 
 ## Key Concepts
 
+- [Trusted Entities](./Trusted_Entity.md) Learn More about the Trusted entities in AWS IAM Role's
+
 ### 1. **Trust Policy**
    - Defines who can assume the role.
    - Specifies the trusted entities (e.g., AWS services, IAM users, or other AWS accounts).
