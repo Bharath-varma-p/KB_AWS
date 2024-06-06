@@ -68,3 +68,7 @@ This example trust policy allows the EC2 service to assume the role:
     ]
 }
 ```
+
+### Quiz 
+
+> 1. [IAM Basic Quiz](./Roles_Trusted_Entity_Q.md) Please take this quiz before taking please go through the link for Trusted Entities 
