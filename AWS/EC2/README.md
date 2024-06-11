@@ -28,3 +28,16 @@ Amazon Elastic Compute Cloud (Amazon EC2) provides scalable computing capacity i
 
 ### 6. **Key Pairs**
    - Secure login information for your instances. AWS uses public-key cryptography to secure the login information for your instances.
+
+### 7. **Auto Scaling**
+   - Helps you ensure that you have the correct number of EC2 instances available to handle the load for your application. Auto Scaling dynamically adjusts the number of instances.
+
+### 8. **Elastic Load Balancer (ELB)**
+   - Automatically distributes incoming application traffic across multiple instances.
+
+### 9. **Networking**
+   - **VPC (Virtual Private Cloud)**: A logically isolated network for your EC2 instances.
+   - **Subnet**: A range of IP addresses in your VPC.
+   - **Network ACLs**: An optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets.
+   - **Elastic Network Interfaces (ENIs)**: A virtual network interface that you can attach to an instance in a VPC.
+
