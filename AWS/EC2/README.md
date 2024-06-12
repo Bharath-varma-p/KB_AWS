@@ -41,3 +41,38 @@ Amazon Elastic Compute Cloud (Amazon EC2) provides scalable computing capacity i
    - **Network ACLs**: An optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets.
    - **Elastic Network Interfaces (ENIs)**: A virtual network interface that you can attach to an instance in a VPC.
 
+## Key Topics 
+
+### 1. **Instance Types and Usage**
+   - Know the different instance types and their use cases.
+   - Understand the pricing models and when to use each (On-Demand, Reserved, Spot).
+
+### 2. **AMI and Instance Lifecycle**
+   - How to create, manage, and deploy AMIs.
+   - Understand the instance lifecycle and how to manage instance states.
+
+### 3. **Security Groups and Network ACLs**
+   - Configuration and best practices for security groups.
+   - Differences between security groups and network ACLs, and how to configure them.
+
+### 4. **EBS and Storage Options**
+   - Understand the different types of EBS volumes and their use cases.
+   - How to create and manage EBS volumes and snapshots.
+
+### 5. **Auto Scaling and Load Balancing**
+   - Configuration and management of Auto Scaling groups.
+   - Types of load balancers (Application, Network, Classic) and their use cases.
+
+### 6. **Elastic IPs and Key Pairs**
+   - How to allocate, associate, and manage Elastic IPs.
+   - Creating and using key pairs for secure access to instances.
+
+### 7. **VPC and Networking**
+   - Basics of VPC, subnets, route tables, and Internet gateways.
+   - How to design and implement a VPC architecture.
+
+### 8. **Monitoring and Management**
+   - Using CloudWatch for monitoring EC2 instances.
+   - Best practices for managing and maintaining EC2 instances.
+
+
