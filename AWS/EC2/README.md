@@ -76,3 +76,8 @@ Amazon Elastic Compute Cloud (Amazon EC2) provides scalable computing capacity i
    - Best practices for managing and maintaining EC2 instances.
 
 
+## Additional Resources
+
+- [AWS EC2 Documentation](https://docs.aws.amazon.com/ec2/index.html)
+- [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/)
+- [AWS Pricing Calculator](https://calculator.aws/#/)
