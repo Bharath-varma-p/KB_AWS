@@ -54,3 +54,25 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that offe
 ### 9. **Event Notifications**
    - Configure notifications for specific events such as object creation, deletion, or restoration.
    - Can trigger AWS Lambda functions, SNS topics, or SQS queues.
+
+
+## Key Topics 
+
+### 1. **Bucket and Object Management**
+   - Creating and configuring buckets.
+   - Uploading, retrieving, and managing objects.
+   - Understanding the unique naming requirements for buckets.
+
+### 2. **Storage Classes and Lifecycle Management**
+   - Differences between storage classes and their use cases.
+   - Setting up lifecycle policies to transition objects between storage classes.
+
+### 3. **Access Control and Security**
+   - Configuring bucket policies, IAM policies, and ACLs.
+   - Implementing server-side and client-side encryption.
+   - Setting up MFA Delete and versioning for data protection.
+
+### 4. **Data Transfer and Performance**
+   - Using S3 Transfer Acceleration and multipart uploads.
+   - Understanding S3 Batch Operations for large-scale object management.
+
