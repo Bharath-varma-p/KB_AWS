@@ -76,3 +76,18 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that offe
    - Using S3 Transfer Acceleration and multipart uploads.
    - Understanding S3 Batch Operations for large-scale object management.
 
+### 5. **Monitoring and Logging**
+   - Configuring S3 event notifications.
+   - Using CloudWatch and S3 logs for monitoring access and operations.
+
+### 6. **Integration with Other AWS Services**
+   - Triggering Lambda functions with S3 events.
+   - Using S3 as a static website hosting solution.
+   - Integrating S3 with other services like Glacier for archival storage.
+
+## Additional Resources
+
+- [AWS S3 Documentation](https://docs.aws.amazon.com/s3/index.html)
+- [S3 Best Practices](https://aws.amazon.com/s3/best-practices/)
+- [AWS Pricing Calculator](https://calculator.aws/#/)
+
