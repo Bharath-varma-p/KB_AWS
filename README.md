@@ -2,11 +2,8 @@
 <h1 align="center">
  <img src="./AWS.png">
   <br />
- Amazon Web Services (AWS) Guide
+ Amazon Web Services - AWS Simplified Guide.
 </h1>
-
-
-# Knowledge Base on The Cloud
 
 ## AWS Services Top Services in AWS 
 
@@ -50,6 +47,9 @@
 38. [Translate](AWS/Translate/README.md)
 39. [Rekognition](AWS/Rekognition/README.md)
 40. [Lex](AWS/Lex/README.md)
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
 
 ## Author 
 - [@Bharath-varma-p](https://github.com/Bharath-varma-p)
