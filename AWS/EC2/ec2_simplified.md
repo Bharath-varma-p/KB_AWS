@@ -10,11 +10,15 @@ Amazon EC2 (Elastic Compute Cloud) is like renting a computer that you can use t
 **Key Features**
 
       - The following are the key features
+            - SLA Commitment of 99.99% Availability 
+            - AWS Nitro System is Build in for the Security 
+            - We have Savings Plan which optimize the Performance to save cost 
+            - It Has Migration tools which makes it easy to Switch between the Clouds with Amazon Lightsail or AWS Managed Services 
             - 
 
 
 <h5 align="center" > 
-    <img src="./ec2.png">
+    <img src="./ec2.png"><br>
     This is the Image of EC2 Logo
 </h5>
 
