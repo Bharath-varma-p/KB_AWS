@@ -17,10 +17,24 @@ Amazon EC2 (Elastic Compute Cloud) is like renting a computer that you can use t
             - 
 
 
+
+
 <h5 align="center" > 
     <img src="./ec2.png"><br>
     This is the Image of EC2 Logo
 </h5>
+
+
+## Instance Types 
+- **General Purpose**: Think of these like your standard family car – versatile and cost-effective. Good for web servers or development environments. Example: `t2.micro`.
+- **Compute Optimized**: These are like sports cars – built for speed! Best for applications that need a lot of processing power, like batch processing. Example: `c5.large`.
+- **Memory Optimized**: Consider these as cargo trucks – they can carry a lot of memory load. Ideal for large databases or real-time big data processing. Example: `r5.large`.
+- **Storage Optimized**: These are like warehouses on wheels – great for jobs that need quick access to large amounts of data, like data warehousing. Example: `d2.xlarge`.
+- **Accelerated Computing**: Think of these as rocket ships – they use special boosters (hardware accelerators) to perform complex calculations quickly. Suitable for graphics processing or data pattern matching. Example: `p3.2xlarge`.
+- **Bare Metal**: Like owning the building itself – you control everything from the ground up. Provides direct access to hardware for applications that need to avoid virtualization. Example: `i3.metal`.
+- **Micro Instances**: These are like scooters – small, economical, and perfect for low traffic sites or personal projects. Example: `t1.micro`.
+
+
 
 ### EC2 Configuration Options
 
