@@ -92,3 +92,24 @@ Security Groups are stateful, meaning if you send a request from your instance, 
 
 These examples show how Security Groups can be tailored to meet the specific needs of different applications, providing flexibility and enhancing security.
 
+
+
+#### Classic Ports Table for Common Services
+
+| Service         | Port Number | Protocol | Description                                  |
+|-----------------|-------------|----------|----------------------------------------------|
+| HTTP            | 80          | TCP      | Standard web traffic                         |
+| HTTPS           | 443         | TCP      | Secure web traffic                           |
+| FTP             | 21          | TCP      | File Transfer Protocol                       |
+| SSH             | 22          | TCP      | Secure Shell for secure remote administration|
+| SMTP            | 25          | TCP      | Simple Mail Transfer Protocol                |
+| DNS             | 53          | TCP/UDP  | Domain Name System                           |
+| DHCP            | 67, 68      | UDP      | Dynamic Host Configuration Protocol          |
+| RDP             | 3389        | TCP      | Remote Desktop Protocol                      |
+| MySQL           | 3306        | TCP      | MySQL Database Service                       |
+| PostgreSQL      | 5432        | TCP      | PostgreSQL Database Service                  |
+
+This table lists some of the classic ports used by common services, which are important to know when configuring security groups in EC2 for appropriate access control.
+
+
+for More Info we can search articles in IP-Tables 
