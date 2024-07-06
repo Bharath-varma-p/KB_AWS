@@ -113,3 +113,36 @@ This table lists some of the classic ports used by common services, which are im
 
 
 for More Info we can search articles in IP-Tables 
+
+
+
+### EC2 Instances Purchasing Options
+
+When deciding how to purchase EC2 instances, think of it like choosing a payment plan for a mobile phone. There are several options, each with its own benefits depending on your usage patterns and financial preferences.
+
+#### 1. **On-Demand Instances**
+   - **Like**: Pay-as-you-go mobile plans.
+   - **Example**: Use On-Demand instances when you have short-term, irregular workloads that cannot be interrupted. Ideal for developing new applications or when you need the flexibility to turn off the service without financial penalty.
+
+#### 2. **Reserved Instances**
+   - **Like**: Yearly subscription with a significant discount.
+   - **Example**: Best for applications with steady state usage where you can commit to using EC2 over a 1 or 3 year period. This option provides a discount of up to 75% compared to On-Demand pricing.
+
+#### 3. **Spot Instances**
+   - **Like**: Bidding in an auction for unused capacity.
+   - **Example**: Suitable for flexible, fault-tolerant applications that can handle possible instance interruptions. Spot Instances offer the potential for significant savings (up to 90% off the On-Demand price) if your application can start and stop at times that align with spot capacity availability.
+
+#### 4. **Dedicated Hosts**
+   - **Like**: Renting an entire server building for exclusive use.
+   - **Example**: Useful for regulatory requirements that may not support multi-tenant virtualization, or for licensing that doesn't support cloud-based deployment. Dedicated Hosts allow you to use your existing server-bound software licenses and control instance placement.
+
+#### 5. **Dedicated Instances**
+   - **Like**: Renting a private floor in a shared building.
+   - **Example**: Similar to Dedicated Hosts but with instances running on physical servers that may be shared with other AWS accounts. This option is typically used for workloads that need to be isolated from other customers at the hardware level but do not require control over instance placement.
+
+#### 6. **Savings Plans**
+   - **Like**: Membership club savings.
+   - **Example**: Offers significant savings over On-Demand pricing in exchange for a commitment to use a specific amount of compute power (measured in $/hour) for a 1 or 3 year period. Suitable for users who can commit to a consistent amount of usage and want the flexibility to change instance types across regions.
+
+Each purchasing option has its own advantages and is suitable for different types of workloads and financial strategies. Choosing the right option can lead to cost savings and operational efficiencies.
+
