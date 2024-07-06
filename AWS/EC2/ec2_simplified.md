@@ -154,3 +154,10 @@ Each purchasing option has its own advantages and is suitable for different type
 | Dedicated Hosts    | Physical server for your exclusive use        | Compliance or licensing needs                     |
 | Dedicated Instances| Isolated hardware, shared physical server     | Workloads needing hardware isolation              |
 | Savings Plans      | Discounted rates for consistent usage         | Long-term, predictable usage                       |
+
+
+
+#### Private vs Public (IPv4)
+
+
+[IPv4](./IPv4.md)
