@@ -146,3 +146,11 @@ When deciding how to purchase EC2 instances, think of it like choosing a payment
 
 Each purchasing option has its own advantages and is suitable for different types of workloads and financial strategies. Choosing the right option can lead to cost savings and operational efficiencies.
 
+| Purchasing Option  | Description                                   | Use Case Example                                  |
+|--------------------|-----------------------------------------------|---------------------------------------------------|
+| On-Demand          | Pay for what you use, no long-term commitment | Short-term, irregular workloads                   |
+| Reserved           | Discounted rate for a fixed term commitment   | Applications with steady usage                    |
+| Spot               | Bid for unused capacity at lower prices       | Flexible applications that can handle interruptions|
+| Dedicated Hosts    | Physical server for your exclusive use        | Compliance or licensing needs                     |
+| Dedicated Instances| Isolated hardware, shared physical server     | Workloads needing hardware isolation              |
+| Savings Plans      | Discounted rates for consistent usage         | Long-term, predictable usage                       |
