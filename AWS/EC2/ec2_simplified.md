@@ -116,7 +116,7 @@ for More Info we can search articles in IP-Tables
 
 
 
-### EC2 Instances Purchasing Options
+### EC2 Instances Purchasing Options  [ORS-DDS]
 
 When deciding how to purchase EC2 instances, think of it like choosing a payment plan for a mobile phone. There are several options, each with its own benefits depending on your usage patterns and financial preferences.
 
