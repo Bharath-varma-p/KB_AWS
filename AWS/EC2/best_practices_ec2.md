@@ -71,3 +71,10 @@ To better understand the best practices for using Amazon EC2, let's use some ana
     - **Example**: Using shutdown scripts to gracefully stop services and save data before terminating an instance.
 
 By using these analogies, you can better understand and remember the best practices for using Amazon EC2 effectively.
+
+
+
+
+
+
+
