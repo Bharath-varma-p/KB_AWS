@@ -75,3 +75,19 @@ Let's consider a scenario where you are working on a data analytics project. You
    - **Step**: Create an S3 bucket with a clear naming convention.
    - **Example**: Name your bucket "data-analytics-project" and use a folder structure like "raw-data/year/month/day" to store raw data files.
 
+2. **Enable versioning**:
+   - **Step**: Enable versioning on your S3 bucket to keep track of changes to your data.
+   - **Example**: Go to the S3 console, select your bucket, and enable versioning to recover previous versions of your datasets if needed.
+
+3. **Use lifecycle policies**:
+   - **Step**: Set up lifecycle policies to manage the storage class of your data over time.
+   - **Example**: Create a lifecycle policy to move raw data to S3 Standard-IA (Infrequent Access) after 30 days and to S3 Glacier after 90 days to save on storage costs.
+
+4. **Encrypt your data**:
+   - **Step**: Enable server-side encryption to protect your data at rest.
+   - **Example**: In the S3 console, enable SSE-S3 (Server-Side Encryption with S3-Managed Keys) for your bucket to ensure all data is encrypted.
+
+5. **Set up access controls**:
+   - **Step**: Define IAM roles and bucket policies to control access to your data.
+   - **Example**: Create an IAM role for your data analytics team with read/write access to the S3 bucket and apply a bucket policy to restrict access to specific IP addresses.
+
